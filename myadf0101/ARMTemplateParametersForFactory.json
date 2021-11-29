@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "myadf0101"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_pipeline1_parameters_plpar": {
+			"value": "@triggerBody().filename"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/c85c3cf4-8eeb-4e7b-9579-56cdf43ac9b8/resourceGroups/AAAA/providers/Microsoft.Storage/storageAccounts/ss0101"
+		}
+	}
+}
